@@ -22,9 +22,9 @@ y = np.array([y(t) for t in t])
 # Crie o gráfico
 plt.figure(figsize=(10, 6))
 plt.plot(t, y, label='y(t)', color='b')
-plt.xlabel('Tempo (t)')
+plt.xlabel('t')
 plt.ylabel('y(t)')
-plt.title('Gráfico da função y(t)')
+plt.title('y(t) para cos(t)')
 plt.legend()
 plt.grid(True)
 
