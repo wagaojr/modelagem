@@ -6,7 +6,7 @@ e = cmath.exp
 i = 1j
 # Defina a função que você deseja plotar
 def y(t):
-    return (100/16)*()
+    return (100/16)*(((-0.00424 - 0.000143907*i)*e((-0.1 - 9.9995*i)*t)*((0.997699 - 0.0678026*i) + e((19.999*i)*t))) + (0.50424 + 0.00101865*i)*e((-100*i)*t)*((0.999992 - 0.00404032*i) + e((200*i)*t)))
 
 # Defina o intervalo de tempo
 t_min = 0
