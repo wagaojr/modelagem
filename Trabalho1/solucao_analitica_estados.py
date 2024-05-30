@@ -26,7 +26,7 @@ plt.figure(figsize=(10, 6))
 plt.plot(t, y, label='y(t)', color='b')
 plt.xlabel('t')
 plt.ylabel('y(t)')
-plt.title('y(t) para cos(t)')
+plt.title('y(t) para degrau na equação de estados')
 plt.legend()
 plt.grid(True)
 
