@@ -8,7 +8,7 @@ k2 = -1.25
 
 # Defina a função que você deseja plotar
 def y(t):
-    return (525*e(-t/10)*cmath.sin(10*t))/10000 - (525*e(-t/10)*cmath.cos(10*t))/100 - (12.5*e(-t/10)*cmath.sin(10*t))/100 + 1
+    return 0.0525*e(-t/10)*cmath.sin(10*t) - 5.25*e(-t/10)*cmath.cos(10*t) - 0.125*e(-t/10)*cmath.sin(10*t) + 1 
 # Defina o intervalo de tempo
 t_min = 0
 t_max = 60
